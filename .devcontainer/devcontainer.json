@@ -1,0 +1,35 @@
+{
+  "name": "Rust",
+  "image": "mcr.microsoft.com/devcontainers/rust:bullseye",
+  "hostRequirements": {
+    "cpus": 1,
+    "memory": "1gb",
+    "storage": "1gb"
+  },
+  "onCreateCommand": {},
+  "updateContentCommand": {},
+  "postCreateCommand": {
+    "update-rust": "rustup update"
+  },
+  "postStartCommand": {},
+  "postAttachCommand": {},
+  
+  // Port forwarding
+  // https://containers.dev/implementors/json_reference/#port-attributes
+  // "portsAttributes": {
+  //   "5000": {
+  //     "label": "Application"
+  //   }
+  // },
+  // "forwardPorts": [5000],
+  
+  // IDE settings
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  }
+}
