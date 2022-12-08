@@ -1,0 +1,15 @@
+[package]
+name = "project"
+version = "0.1.0"
+description = "Basic Rust Dev Container"
+documentation = "https://github.com/ndunnett/basic-rust-devcontainer"
+homepage = "https://github.com/ndunnett/basic-rust-devcontainer"
+repository = "https://github.com/ndunnett/basic-rust-devcontainer"
+readme = "README.md"
+license-file = "LICENSE"
+edition = "2021"
+rust-version = "1.65"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
